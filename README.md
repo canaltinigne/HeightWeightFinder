@@ -1,6 +1,6 @@
 # Height & Weight Finder
 
-This is a Python script to find height, weight, segmentation mask and joint locations of a person from a full-body single person image. Used networks are implemented in _Height and Weight Estimation From Unconstrained Images_ paper. You can find this paper's repository [here](https://github.com/canaltinigne/DeepHeightWeight/).
+This is a Python script to find height, weight, segmentation mask and joint locations of a person from a full-body single person image. Used networks are implemented in "_Height and Weight Estimation From Unconstrained Images_" paper. You can find this paper's repository [here](https://github.com/canaltinigne/DeepHeightWeight/).
 
 ## Trained Models in the Original Paper
 
