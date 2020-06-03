@@ -23,3 +23,18 @@ In order to get outputs, just run `python HWFinder.py -i [IMAGE ADDRESS] -g [GPU
 ## Environment
 
 You can use `environment.yml` file to create a Conda environment to run the script. You can create a new environment using this command. `conda env create -f environment.yml -p [PATH]`
+
+## Cite
+
+If you use this program in your research project. Please cite the paper using following Bibtex
+
+```
+@inproceedings{altinigne2020height,
+  title={Height and Weight Estimation from Unconstrained Images},
+  author={Altinigne, Can Yilmaz and Thanou, Dorina and Achanta, Radhakrishna},
+  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2298--2302},
+  year={2020},
+  organization={IEEE}
+}
+
