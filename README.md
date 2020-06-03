@@ -26,7 +26,7 @@ You can use `environment.yml` file to create a Conda environment to run the scri
 
 ## Cite
 
-If you use this program in your research project. Please cite the paper using following Bibtex
+If you use this program in your research project, please cite the paper using Bibtex below.
 
 ```
 @inproceedings{altinigne2020height,
