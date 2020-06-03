@@ -36,11 +36,11 @@ if __name__ == "__main__":
     
     # Height
     model_h = HUNet(128)
-    pretrained_model_h = torch.load(glob('models/IMDB_MODEL_07102019_054512/*')[0])
+    pretrained_model_h = torch.load('models/model_ep_48.pth.tar')
 
     # Weight
     model_w = UNet(128, 32, 32)
-    pretrained_model_w = torch.load(glob('models/IMDB_MODEL_WEIGHT_17102019_161323/*')[0])
+    pretrained_model_w = torch.load('models/model_ep_37.pth.tar')
     
     model_h.load_state_dict(pretrained_model_h["state_dict"])
     model_w.load_state_dict(pretrained_model_w["state_dict"])
